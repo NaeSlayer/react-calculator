@@ -1,0 +1,30 @@
+.banner {
+    background-color: green;
+    color: blue;
+    text-align: center;
+    width: 200px;
+    margin-left: 40%;
+}
+table {
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.button {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 5px;
+}
+input {
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 18%;
+    text-align: right;
+    font-size: 20px;
+    padding: 5px;
+}
