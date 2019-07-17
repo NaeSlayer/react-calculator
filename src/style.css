@@ -1,30 +1,49 @@
-.banner {
-    background-color: green;
-    color: blue;
-    text-align: center;
-    width: 200px;
-    margin-left: 40%;
-}
-table {
+.outside {
+    border: 1px solid #550400;
+    width: 225px;
     margin-left: 40%;
     margin-right: 40%;
-    border: 1px solid black;
     border-radius: 5px;
+    background-color: #AA3E39;
+}
+.banner {
+    /* background-color: green; */
+    color: #550400;
+    text-align: center;
+    /* width: 200px;
+    margin-left: 40%; */
+}
+table {
+    margin: auto;
 }
 .button {
     height: 50px;
     width: 50px;
-    background-color: red;
+    background-color: #D4706A;
     border-radius: 5px;
+    color: #550400;
+    border: 1px solid #550400;
+    font-size: 20px;
+}
+.button:hover {
+    background-color: #FFAEAA;
 }
 input {
-    margin-left: 40%;
-    margin-right: 40%;
-    border: 1px solid black;
+    border: 1px solid #550400;
     border-radius: 5px;
-    height: 40px;
-    width: 18%;
+    height: 50px;
+    width: 215px;
+    color: #550400;
+    background-color: #FFAEAA;
     text-align: right;
-    font-size: 20px;
+    font-size: 30px;
     padding: 5px;
+    margin: 0 5px;
+}
+.keypad {
+    width: 225px;
+    padding: 5px 0;
+}
+.display {
+    width: 225px;
 }

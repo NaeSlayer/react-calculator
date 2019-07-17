@@ -137,7 +137,7 @@ class Main extends Component {
                 <Header />
                 <ResultArea value={this.state.displayValue} />
                 <KeyPad callbackFromParent={this.myCallback} />
-                <Content />
+                {/* <Content /> */}
             </div>
         );
     }
